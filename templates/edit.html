@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Task</title>
+</head>
+<body>
+<h4>Edit task</h4>
+<div class="container" style="margin: 10px ; padding: 4px">
+    <form action="" method="post" class="form">
+    <div class="form-group">
+       <label>
+           <input value="{{task.title }}" class="form-control" type="text" name="title" placeholder="Task Title" required/>
+       </label>
+    </div>
+    <br>
+     <div class="form-group">
+        <label>
+            <input class="form-control"  value="{{task.description}}" type="text" name="description" placeholder="Task Description" required/>
+        </label>
+    </div>
+        <br>
+    <button class="btn btn-success" type="submit">Save Task</button>
+</form>
+    <br>
+
+</div>
+
+</body>
+</html>
